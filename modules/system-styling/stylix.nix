@@ -7,6 +7,11 @@
 
     base16Scheme = "${pkgs.base16-schemes}/share/themes/rose-pine.yaml";
 
+    opacity = {
+      terminal = 0.95;
+      popups = 0.95;
+    };
+
     fonts = {
       serif = {
         package = pkgs.libre-baskerville;
